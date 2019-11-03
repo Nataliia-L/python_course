@@ -1,0 +1,5 @@
+answer1 = input ("What is your name? ")
+print ("Hello, " + answer1 + "!")
+answer2 = input ("How old are you? ")
+print ("Your name is " + answer1 + ", " + "your age is " + answer2 + ".")
+print ("You are lucky Guy!")

@@ -1,0 +1,12 @@
+import random
+val1 = random.randint (10,99)
+val2 = random.randint (10,99)
+val3 = random.randint (10,99)
+l = ([val1,val2,val3])
+l_sorted = list(l)
+l_sorted.sort()
+l_sorted_rev = list (l)
+l_sorted_rev.sort(reverse=True)
+print (l)
+print (l_sorted)
+print (l_sorted_rev)
